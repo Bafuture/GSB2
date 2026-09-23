@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.saga</groupId>
+        <artifactId>saga-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>saga-example</artifactId>
+    <name>saga-example</name>
+    <description>Demo: a three-participant order saga driven through every fault-injection scenario</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.saga</groupId>
+            <artifactId>saga-coordinator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.saga</groupId>
+            <artifactId>saga-participant</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <id>run-order-saga-demo</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>io.saga.example.OrderSagaExample</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
