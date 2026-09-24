@@ -1,0 +1,16 @@
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/FaultInjector.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/RetryPolicy.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/Saga.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaAction.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaContext.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaCrashException.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaDefinition.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaEngine.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaEvent.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaFaultException.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaRepository.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaResult.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaStatus.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/SagaStep.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/StepGroup.java
+/home/dev/gsb/uid2/B/coordinator/src/main/java/com/example/saga/coordinator/StepStatus.java
