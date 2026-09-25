@@ -1,0 +1,5 @@
+/home/dev/gsb/uid10/A/participant/src/test/java/io/saga/participant/BarrierIdempotencyTest.java
+/home/dev/gsb/uid10/A/participant/src/test/java/io/saga/participant/BarrierTestSupport.java
+/home/dev/gsb/uid10/A/participant/src/test/java/io/saga/participant/FaultyTransport.java
+/home/dev/gsb/uid10/A/participant/src/test/java/io/saga/participant/HangingFaultInjectionTest.java
+/home/dev/gsb/uid10/A/participant/src/test/java/io/saga/participant/NullRollbackFaultInjectionTest.java

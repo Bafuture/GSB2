@@ -1,0 +1,5 @@
+io/saga/coordinator/TestDbs.class
+io/saga/coordinator/FaultInjectionTest.class
+io/saga/coordinator/RecoveryTest.class
+io/saga/coordinator/RecoveryTest$Check.class
+io/saga/coordinator/SagaOrchestratorTest.class

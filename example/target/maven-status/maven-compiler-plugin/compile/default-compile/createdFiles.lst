@@ -1,0 +1,6 @@
+io/saga/example/AccountService.class
+io/saga/example/OrderSagaDemo$ScenarioResult.class
+io/saga/example/InventoryService.class
+io/saga/example/OrderSagaDemo$Fixture.class
+io/saga/example/PointsService.class
+io/saga/example/OrderSagaDemo.class

@@ -1,0 +1,6 @@
+io/saga/participant/Barrier.class
+io/saga/participant/BarrierStore$BarrierPersistenceException.class
+io/saga/participant/ParticipantAction.class
+io/saga/participant/Participant.class
+io/saga/participant/BranchStatus.class
+io/saga/participant/BarrierStore.class

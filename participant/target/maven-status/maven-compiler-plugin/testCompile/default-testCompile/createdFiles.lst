@@ -1,0 +1,7 @@
+io/saga/participant/BarrierIdempotencyTest.class
+io/saga/participant/BarrierTestSupport.class
+io/saga/participant/FaultyTransport.class
+io/saga/participant/FaultyTransport$Key.class
+io/saga/participant/NullRollbackFaultInjectionTest.class
+io/saga/participant/FaultyTransport$Pending.class
+io/saga/participant/HangingFaultInjectionTest.class
