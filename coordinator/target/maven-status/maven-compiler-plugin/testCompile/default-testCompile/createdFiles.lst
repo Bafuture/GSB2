@@ -1,0 +1,3 @@
+com/example/saga/core/SagaEngineTest.class
+com/example/saga/core/CoreTestSupport.class
+com/example/saga/core/RecoveryTest.class

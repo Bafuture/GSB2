@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.saga.demo.SagaDemoTest" time="0.542" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/dev/gsb/uid10/B/example/target/test-classes:/home/dev/gsb/uid10/B/example/target/classes:/home/dev/gsb/uid10/B/coordinator/target/saga-coordinator-1.0.0.jar:/home/dev/gsb/uid10/B/participant/target/saga-participant-1.0.0.jar:/home/dev/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar:/home/dev/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/dev/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/dev/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/dev/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/dev/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/dev/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/dev/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/dev/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/home/dev/jdk17/lib"/>
+    <property name="sun.java.command" value="/home/dev/gsb/uid10/B/example/target/surefire/surefirebooter-20260926210649056_9.jar /home/dev/gsb/uid10/B/example/target/surefire 2026-09-26T21-06-46_502-jvmRun1 surefire-20260926210649056_7tmp surefire_2-20260926210649056_8tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/dev/gsb/uid10/B/example/target/test-classes:/home/dev/gsb/uid10/B/example/target/classes:/home/dev/gsb/uid10/B/coordinator/target/saga-coordinator-1.0.0.jar:/home/dev/gsb/uid10/B/participant/target/saga-participant-1.0.0.jar:/home/dev/.m2/repository/com/h2database/h2/2.2.224/h2-2.2.224.jar:/home/dev/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/dev/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/dev/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/dev/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/dev/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/dev/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/dev/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/dev/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/dev"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="/home/dev/jdk17"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/dev/gsb/uid10/B/example"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/dev/gsb/uid10/B/example/target/surefire/surefirebooter-20260926210649056_9.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.20.1+1"/>
+    <property name="user.name" value="dev"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.6.114.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.20.1+1"/>
+    <property name="localRepository" value="/home/dev/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.20.1"/>
+    <property name="user.dir" value="/home/dev/gsb/uid10/B/example"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.20.1+1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="faultAfterStep2CompensatesBothPriorWork" classname="com.example.saga.demo.SagaDemoTest" time="0.327">
+    <system-out><![CDATA[==============================================================================
+demo: fault after step 2
+------------------------------------------------------------------------------
+final state : COMPENSATED  (reason: step 'inventory.reserve' (no. 2) exhausted 3 attempt(s))
+participants: account{alice=1000}  inventory{sku-42=0}  points{alice=0}
+event timeline:
+21:06:49.410  SAGA_STARTED  saga=order-saga
+21:06:49.424  STEP_STARTED  step=account.debit attempt=1/3
+21:06:49.432  STEP_SUCCEEDED  step=account.debit
+21:06:49.437  STEP_STARTED  step=inventory.reserve attempt=1/3
+21:06:49.437  STEP_STARTED  step=points.add attempt=1/3
+21:06:49.441  STEP_SUCCEEDED  step=points.add
+21:06:49.443  STEP_FAILED  step=inventory.reserve attempt=1 cause=injected fault after step 2 (inventory.reserve)
+21:06:49.445  STEP_RETRYING  step=inventory.reserve backoffMs=50
+21:06:49.497  STEP_STARTED  step=inventory.reserve attempt=2/3
+21:06:49.501  STEP_FAILED  step=inventory.reserve attempt=2 cause=injected fault after step 2 (inventory.reserve)
+21:06:49.502  STEP_RETRYING  step=inventory.reserve backoffMs=100
+21:06:49.604  STEP_STARTED  step=inventory.reserve attempt=3/3
+21:06:49.606  STEP_FAILED  step=inventory.reserve attempt=3 cause=injected fault after step 2 (inventory.reserve)
+21:06:49.608  STEP_EXHAUSTED  step 'inventory.reserve' (no. 2) exhausted 3 attempt(s)
+21:06:49.610  COMPENSATION_STARTED
+21:06:49.613  COMPENSATION_SUCCEEDED  step=points.add
+21:06:49.617  COMPENSATION_SUCCEEDED  step=inventory.reserve
+21:06:49.619  COMPENSATION_SUCCEEDED  step=account.debit
+21:06:49.620  SAGA_COMPENSATED
+]]></system-out>
+  </testcase>
+  <testcase name="nullRollbackIsAbsorbedByBarrier" classname="com.example.saga.demo.SagaDemoTest" time="0.004">
+    <system-out><![CDATA[==============================================================================
+4) injected anomaly: NULL ROLLBACK (compensate without try)
+------------------------------------------------------------------------------
+barrier outcome: NULL_ROLLBACK  -> compensation acknowledged without running any undo logic
+]]></system-out>
+  </testcase>
+  <testcase name="suspensionRejectsLateTry" classname="com.example.saga.demo.SagaDemoTest" time="0.003">
+    <system-out><![CDATA[==============================================================================
+5) injected anomaly: SUSPENSION (compensate arrives before try)
+------------------------------------------------------------------------------
+barrier outcome: SUSPENDED  -> the late forward action was rejected, branch stays rolled back
+]]></system-out>
+  </testcase>
+  <testcase name="faultBeforeStep2CompensatesStep1" classname="com.example.saga.demo.SagaDemoTest" time="0.178">
+    <system-out><![CDATA[==============================================================================
+demo: fault before step 2
+------------------------------------------------------------------------------
+final state : COMPENSATED  (reason: step 'inventory.reserve' (no. 2) exhausted 3 attempt(s))
+participants: account{alice=1000}  inventory{}  points{alice=0}
+event timeline:
+21:06:49.648  SAGA_STARTED  saga=order-saga
+21:06:49.651  STEP_STARTED  step=account.debit attempt=1/3
+21:06:49.653  STEP_SUCCEEDED  step=account.debit
+21:06:49.654  STEP_STARTED  step=inventory.reserve attempt=1/3
+21:06:49.655  STEP_STARTED  step=points.add attempt=1/3
+21:06:49.655  STEP_FAILED  step=inventory.reserve attempt=1 cause=injected fault before step 2 (inventory.reserve)
+21:06:49.655  STEP_RETRYING  step=inventory.reserve backoffMs=50
+21:06:49.656  STEP_SUCCEEDED  step=points.add
+21:06:49.707  STEP_STARTED  step=inventory.reserve attempt=2/3
+21:06:49.707  STEP_FAILED  step=inventory.reserve attempt=2 cause=injected fault before step 2 (inventory.reserve)
+21:06:49.708  STEP_RETRYING  step=inventory.reserve backoffMs=100
+21:06:49.809  STEP_STARTED  step=inventory.reserve attempt=3/3
+21:06:49.810  STEP_FAILED  step=inventory.reserve attempt=3 cause=injected fault before step 2 (inventory.reserve)
+21:06:49.811  STEP_EXHAUSTED  step 'inventory.reserve' (no. 2) exhausted 3 attempt(s)
+21:06:49.812  COMPENSATION_STARTED
+21:06:49.814  COMPENSATION_SUCCEEDED  step=points.add
+21:06:49.815  COMPENSATION_SUCCEEDED  step=account.debit
+21:06:49.816  SAGA_COMPENSATED
+]]></system-out>
+  </testcase>
+  <testcase name="happyPathCompletes" classname="com.example.saga.demo.SagaDemoTest" time="0.015">
+    <system-out><![CDATA[==============================================================================
+demo: happy path
+------------------------------------------------------------------------------
+final state : COMPLETED
+participants: account{alice=900}  inventory{sku-42=2}  points{alice=10}
+event timeline:
+21:06:49.827  SAGA_STARTED  saga=order-saga
+21:06:49.829  STEP_STARTED  step=account.debit attempt=1/3
+21:06:49.831  STEP_SUCCEEDED  step=account.debit
+21:06:49.832  STEP_STARTED  step=points.add attempt=1/3
+21:06:49.832  STEP_STARTED  step=inventory.reserve attempt=1/3
+21:06:49.833  STEP_SUCCEEDED  step=points.add
+21:06:49.833  STEP_SUCCEEDED  step=inventory.reserve
+21:06:49.834  SAGA_COMPLETED
+]]></system-out>
+  </testcase>
+</testsuite>

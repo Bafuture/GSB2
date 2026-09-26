@@ -1,0 +1,5 @@
+com/example/saga/participant/BarrierResult.class
+com/example/saga/participant/ParticipantAction.class
+com/example/saga/participant/BarrierType.class
+com/example/saga/participant/BarrierRepository.class
+com/example/saga/participant/ParticipantBarrier.class

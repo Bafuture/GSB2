@@ -1,0 +1,4 @@
+com/example/saga/participant/SuspensionFaultInjectionTest.class
+com/example/saga/participant/BarrierTestSupport.class
+com/example/saga/participant/NullRollbackFaultInjectionTest.class
+com/example/saga/participant/CompensationIdempotencyTest.class
